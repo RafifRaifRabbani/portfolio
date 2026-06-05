@@ -4,74 +4,76 @@
 const projects = [
   {
     id: 1,
-    name: "Landing Page Sekolah",
+    name: "Calculator Sederhana",
     description:
-      "Website landing page resmi sekolah yang menampilkan informasi umum, visi misi, fasilitas, dan kontak. Dibangun dengan layout responsif agar dapat diakses dari berbagai perangkat.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
-    semester: "Semester 1",
-    icon: "🏫",
-    color: "#4f46e5",
-  },
-  {
-    id: 2,
-    name: "Website Biodata",
-    description:
-      "Halaman biodata pribadi berbasis web yang memuat informasi diri, foto profil, hobi, dan cita-cita. Menggunakan CSS Grid dan Flexbox untuk layout yang rapi.",
-    technologies: ["HTML5", "CSS3"],
-    semester: "Semester 1",
-    icon: "👤",
-    color: "#0891b2",
-  },
-  {
-    id: 3,
-    name: "Kalkulator Sederhana",
-    description:
-      "Aplikasi kalkulator berbasis web dengan operasi aritmatika dasar (tambah, kurang, kali, bagi). Mengimplementasikan logika JavaScript murni tanpa library tambahan.",
+      "Aplikasi kalkulator sederhana yang dapat melakukan operasi dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Dibuat menggunakan JavaScript untuk logika perhitungan dan HTML/CSS untuk tampilan.",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     semester: "Semester 1",
     icon: "🧮",
-    color: "#059669",
+    color: "#16a34a",
   },
   {
-    id: 4,
-    name: "To Do List",
+    id:2,
+    name: "calculator zakat emas",
     description:
-      "Aplikasi manajemen tugas interaktif yang memungkinkan pengguna menambah, menyelesaikan, dan menghapus tugas. Data disimpan menggunakan localStorage agar tidak hilang saat halaman direfresh.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "LocalStorage"],
+      "Aplikasi kalkulator zakat emas yang membantu pengguna menghitung jumlah zakat yang harus dikeluarkan berdasarkan berat emas yang dimiliki. Aplikasi ini menggunakan JavaScript untuk logika perhitungan dan HTML/CSS untuk tampilan yang sederhana.",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
     semester: "Semester 1",
+    icon: "💰",
+    color: "#f59e0b",
+  },
+  {
+    id:3,
+    name: "Lampu Merah",
+    description:
+      "Simulasi lampu lalu lintas yang menampilkan perubahan warna lampu (merah, kuning, hijau) secara otomatis. Aplikasi ini dibuat menggunakan JavaScript untuk mengatur perubahan warna dan HTML/CSS untuk tampilan visualnya.",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    semester: "Semester 1",
+    icon: "🚦",
+    color: "#ef4444",
+  },
+  {
+    id:4,
+    name: "Aplikasi Card",
+    description:
+      "Aplikasi yang menampilkan kumpulan kartu dengan informasi tertentu, seperti nama, deskripsi, dan gambar. Kartu-kartu ini dapat diatur dalam grid responsif menggunakan CSS, dan JavaScript digunakan untuk menambahkan interaktivitas seperti filter atau sorting.",
+    technologies: ["ReactJS", "CSS3" ],
+    semester: "Semester 2",
+    icon: "🃏",
+    color: "#8b5cf6",
+  },
+  {
+    id:5,
+    name: "Aplikasi Penghitung Hafalan",
+    description:
+      "Aplikasi yang membantu pengguna menghitung jumlah hafalan yang telah mereka capai. Pengguna dapat memasukkan jumlah hafalan yang telah mereka lakukan, dan aplikasi akan memberikan total serta statistik terkait. Dibuat menggunakan ReactJS untuk interaktivitas dan CSS untuk tampilan yang menarik.",
+    technologies: ["ReactJS", "CSS3"],
+    semester: "Semester 2",
+    icon: "📊",
+    color: "#10b981",
+  },
+  {
+    id:6,
+    name: "Dashboard CSS Modules",
+    description:
+      "Dashboard interaktif yang menampilkan berbagai modul pembelajaran dengan desain yang menarik. Dashboard ini dibuat menggunakan CSS untuk tata letak dan styling, serta JavaScript untuk menambahkan fitur interaktif seperti navigasi dan filter modul.",
+    technologies: ["reactJS", "CSS3"],
+    semester: "Semester 2",
+    icon: "📋",
+    color: "#3b82f6",
+  },
+  {
+    id:7,
+    name: "To-Do List",
+    description:
+      "Aplikasi to-do list yang memungkinkan pengguna untuk menambahkan, mengedit, dan menghapus tugas. Aplikasi ini dibuat menggunakan ReactJS untuk manajemen state dan interaktivitas, serta CSS untuk tampilan yang bersih dan responsif.",
+    technologies: ["ReactJS", "CSS3"],
+    semester: "Semester 2",
     icon: "✅",
-    color: "#d97706",
-  },
-  {
-    id: 5,
-    name: "Website Vocab Inggris",
-    description:
-      "Platform belajar kosakata Bahasa Inggris interaktif dengan fitur flashcard, quiz pilihan ganda, dan riwayat skor. Membantu siswa belajar dengan cara yang menyenangkan.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
-    semester: "Semester 2",
-    icon: "📚",
-    color: "#7c3aed",
-  },
-  {
-    id: 6,
-    name: "Web Portofolio",
-    description:
-      "Website portofolio pribadi ini — dibangun menggunakan ReactJS dengan Vite sebagai build tool. Menampilkan semua project, skill, dan informasi kontak dengan desain modern dan responsif.",
-    technologies: ["ReactJS", "Vite", "React Router", "CSS3"],
-    semester: "Semester 2",
-    icon: "💼",
-    color: "#db2777",
-  },
-  {
-    id: 7,
-    name: "Toko Online Mini",
-    description:
-      "Simulasi halaman toko online sederhana dengan katalog produk, fitur pencarian, dan keranjang belanja. Menggunakan array JavaScript untuk menyimpan data produk secara lokal.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
-    semester: "Semester 2",
-    icon: "🛒",
-    color: "#ea580c",
+    color: "#22c55e",
   },
 ]
 
 export default projects
+
+
